@@ -21,5 +21,8 @@ public class SauceDemoLoginPage {
   @FindBy(xpath = "//input[@id='login-button']")
     public WebElement sauceDemoLoginButton;
 
+  @FindBy(xpath = "//div[@class='error-message-container error']")
+    public WebElement loginErrorMessage;
+
 
 }
